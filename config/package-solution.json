@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tictactoev-3-client-side-solution",
+    "id": "835b53f7-b7e1-405e-b847-df7c9877b480",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/tictactoev-3.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tictactoev-3-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tictactoev3/Tictactoev3WebPart.js",
+          "manifest": "./src/webparts/tictactoev3/Tictactoev3WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Tictactoev3WebPartStrings": "lib/webparts/tictactoev3/loc/{locale}.js"
+  }
+}
